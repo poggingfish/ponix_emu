@@ -1,3 +1,7 @@
 from plisphelper import pexec, p_reset
-print(pexec("(set(x)(54))"))
-print(pexec("(get(x))"))
+import ponixfs
+ponixfs.write("Booting ponix.\n")
+while True:
+    ponixfs.write("-> ")
+    x = input()
+    ponixfs.write(x+"\n")

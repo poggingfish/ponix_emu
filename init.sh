@@ -1,3 +1,4 @@
+pip install watchdog
 touch start
 mkdir -p pvm
 rm -rf pvm
@@ -16,7 +17,11 @@ cd os
 echo "Creating /"
 mkdir -p bin
 mkdir -p boot
+echo "Creating /dev/"
 mkdir -p dev
+cd dev
+touch stdout
+cd ..
 mkdir -p etc
 mkdir -p home
 mkdir -p lib
