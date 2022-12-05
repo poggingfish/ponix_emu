@@ -1,0 +1,6 @@
+[submodule "plisp"]
+	path = plisp
+	url = https://github.com/poggingfish/plisp
+[submodule "pvm"]
+	path = pvm
+	url = https://github.com/poggingfish/pvm
