@@ -1,4 +1,10 @@
 touch start
+mkdir -p pvm
+rm -rf pvm
+git clone https://github.com/poggingfish/pvm
+mkdir -p plisp
+rm -rf plisp
+git clone https://github.com/poggingfish/plisp
 rm start
 clang start.c -o start
 black=$(tput setaf 0)
