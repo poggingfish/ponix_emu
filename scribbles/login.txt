@@ -1,0 +1,18 @@
+login -> {
+    x = input("Username")
+    if x not usernames:
+        print("unknown user")
+        return False
+    y = input("Password")
+    if y != passwords[x]:
+        print("incorrect password")
+        return False
+    return True
+}
+main -> {
+    do_kernel_stuff()
+    _ = login()
+    if not _:
+        throw err
+    do_stuff()
+}

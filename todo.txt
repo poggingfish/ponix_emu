@@ -1,0 +1,4 @@
+[] Login
+[] Read/Write to FS
+[] Implement cd
+[] Implement some core operating system functions
